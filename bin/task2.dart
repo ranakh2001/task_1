@@ -1,6 +1,6 @@
 class Name {
-  late String firstName;
-  late String surName;
+  late final String firstName;
+  late final String surName;
   bool surnameIsFirst = false;
 
   Name(String fName, String sName) {
